@@ -67,8 +67,8 @@
         "notification_title": "通知を有効にする",
         "edit-paired-devices_title": "ペアリング設定",
         "language-selector_title": "言語設定",
-        "about_title": "PairDropについて",
-        "about_aria-label": "PairDropについてを開く",
+        "about_title": "{{app_title}}について",
+        "about_aria-label": "{{app_title}}についてを開く",
         "theme-light_title": "常にライトテーマを使用する",
         "edit-share-mode": "編集",
         "expand_title": "ヘッダーボタン列を拡大する"
@@ -82,7 +82,7 @@
         "no-peers-subtitle": "ペアリングや公開ルームを使うと、別のネットワークにあるデバイスと共有できます",
         "activate-share-mode-shared-text": "共有されたテキスト",
         "x-instructions_desktop": "左クリックでファイル送信、右クリックでメッセージ送信",
-        "no-peers-title": "ファイル共有するには他のデバイスでPairDropを開きます",
+        "no-peers-title": "ファイル共有するには他のデバイスで{{app_title}}を開きます",
         "x-instructions_data-drop-peer": "ドロップするとこのデバイスに送信します",
         "x-instructions_data-drop-bg": "送信したいデバイスの上でドロップしてください",
         "no-peers_data-drop-bg": "送信したいデバイスの上でドロップしてください",
@@ -171,7 +171,8 @@
         "mastodon_title": "MastodonでPairDropについてトゥート",
         "bluesky_title": "BlueSkyでフォロー",
         "custom_title": "フォロー",
-        "privacypolicy_title": "プライバシーポリシーを開く"
+        "privacypolicy_title": "プライバシーポリシーを開く",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-transfer-requested": "ファイル転送の要求があります",

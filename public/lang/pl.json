@@ -119,7 +119,8 @@
         "privacypolicy_title": "Otwórz naszą Politykę Prywatności",
         "faq_title": "Często zadawane pytania (FAQ)",
         "github_title": "PairDrop na GitHub",
-        "tweet_title": "Tweetnij o PairDrop"
+        "tweet_title": "Tweetnij o PairDrop",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-permanently": "Wyświetlana nazwa została zmieniona na stałe",

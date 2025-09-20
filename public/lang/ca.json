@@ -28,8 +28,8 @@
         "edit-share-mode": "Editar",
         "language-selector_title": "Configurar idioma",
         "cancel-share-mode": "Cancel·lar",
-        "about_title": "Sobre PairDrop",
-        "about_aria-label": "Obre Sobre PairDrop",
+        "about_title": "Sobre {{app_title}}",
+        "about_aria-label": "Obre Sobre {{app_title}}",
         "theme-light_title": "Utilitza sempre el mode clar",
         "expand_title": "Expandeix la fila de botons de la capçalera"
     },
@@ -164,14 +164,15 @@
     "about": {
         "claim": "La manera més fàcil de compartir fitxers entre dispositius",
         "tweet_title": "Tuiteja sobre PairDrop",
-        "close-about_aria-label": "Tanca Sobre PairDrop",
+        "close-about_aria-label": "Tanca Sobre {{app_title}}",
         "buy-me-a-coffee_title": "Convida'm a un cafè!",
         "github_title": "PairDrop a GitHub",
         "faq_title": "Preguntes freqüents",
         "mastodon_title": "Escriu sobre PairDrop a Mastodon",
         "bluesky_title": "Segueix-nos a BlueSky",
         "custom_title": "Segueix-nos",
-        "privacypolicy_title": "Obre la nostra política de privacitat"
+        "privacypolicy_title": "Obre la nostra política de privacitat",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-transfer-requested": "Transferència de Fitxers Sol·licitada",

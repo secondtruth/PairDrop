@@ -25,7 +25,8 @@
         "custom_title": "Sledujte nás",
         "privacypolicy_title": "Otevřete naše zásady ochrany osobních údajů",
         "bluesky_title": "Sledujte nás na BlueSky",
-        "faq_title": "Často kladené otázky"
+        "faq_title": "Často kladené otázky",
+        "app-title": "{{app_title}}"
     },
     "footer": {
         "webrtc": "pokud WebRTC není k dispozici.",

@@ -113,7 +113,8 @@
         "mastodon_title": "Skriv om PairDrop på Mastodon",
         "bluesky_title": "Følg os på BlueSky",
         "custom_title": "Følg os",
-        "privacypolicy_title": "Åbn vores privatlivspolitik"
+        "privacypolicy_title": "Åbn vores privatlivspolitik",
+        "app-title": "{{app_title}}"
     },
     "header": {
         "language-selector_title": "Indstil sprog",

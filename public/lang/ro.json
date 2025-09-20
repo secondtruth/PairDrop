@@ -171,7 +171,8 @@
         "bluesky_title": "Urmărește-ne pe BlueSky",
         "privacypolicy_title": "Deschideți politica noastră de confidențialitate",
         "mastodon_title": "Scrieți despre PairDrop pe Mastodon",
-        "custom_title": "Urmăriți-ne"
+        "custom_title": "Urmăriți-ne",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-transfer-requested": "Transfer de fișiere cerut",

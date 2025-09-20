@@ -2,8 +2,8 @@
     "header": {
         "theme-auto_title": "Adaptar tema al sistema",
         "language-selector_title": "Configurar Idioma",
-        "about_title": "Sobre PairDrop",
-        "about_aria-label": "Abrir Sobre PairDrop",
+        "about_title": "Sobre {{app_title}}",
+        "about_aria-label": "Abrir Sobre {{app_title}}",
         "cancel-share-mode": "Listo",
         "install_title": "Instalar PairDrop",
         "theme-dark_title": "Siempre usar tema oscuro",
@@ -164,14 +164,15 @@
     "about": {
         "claim": "La forma más sencilla de transferir archivos entre dispositivos",
         "tweet_title": "Tweetea sobre PairDrop",
-        "close-about_aria-label": "Cerrar Sobre PairDrop",
+        "close-about_aria-label": "Cerrar Sobre {{app_title}}",
         "buy-me-a-coffee_title": "¡Cómprame un café!",
         "github_title": "PairDrop en GitHub",
         "faq_title": "Preguntas frecuentes",
         "bluesky_title": "Síganos en BlueSky",
         "privacypolicy_title": "Abrir nuestra política de privacidad",
         "mastodon_title": "Escriba sobre PairDrop en Mastodon",
-        "custom_title": "Síguenos en"
+        "custom_title": "Síguenos en",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-transfer-requested": "Transferencia de archivos solicitada",

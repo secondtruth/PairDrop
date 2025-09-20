@@ -119,7 +119,8 @@
         "tweet_title": "Tvitre om PairDrop",
         "mastodon_title": "Skriv om PairDrop på Masrodon",
         "bluesky_title": "Følg oss på BlueSky",
-        "custom_title": "Følg oss"
+        "custom_title": "Følg oss",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-permanently": "Profilnamnet er endra permanent",

@@ -171,7 +171,8 @@
         "mastodon_title": "اكتب عن بيردروب على ماستادون",
         "bluesky_title": "تابعنا على بلوسكاي",
         "custom_title": "تابعنا",
-        "privacypolicy_title": "افتح سياسة الخصوصية الخاصة بنا"
+        "privacypolicy_title": "افتح سياسة الخصوصية الخاصة بنا",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-transfer-requested": "طلب نقل الملف",

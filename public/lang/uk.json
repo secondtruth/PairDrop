@@ -119,7 +119,8 @@
         "faq_title": "Часто задавані питання",
         "mastodon_title": "Напишіть про PairDrop на Mastodon",
         "custom_title": "Підписуйтесь на нас",
-        "claim": "Найпростіший спосіб передачі файлів між пристроями"
+        "claim": "Найпростіший спосіб передачі файлів між пристроями",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-temporarily": "Відображуване ім'я було змінено тільки для цієї сесії",

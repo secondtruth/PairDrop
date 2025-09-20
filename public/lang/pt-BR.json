@@ -119,7 +119,8 @@
         "mastodon_title": "Escrever sobre PairDrop no Mastodon",
         "bluesky_title": "Siga-nos no BlueSky",
         "custom_title": "Siga-nos",
-        "privacypolicy_title": "Abra nossa política de privacidade"
+        "privacypolicy_title": "Abra nossa política de privacidade",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-permanently": "O nome de exibição é alterado permanentemente",

@@ -1,9 +1,9 @@
 {
     "header": {
         "expand_title": "展開標題按鈕列",
-        "about_title": "關於 PairDrop",
+        "about_title": "關於 {{app_title}}",
         "language-selector_title": "設定語言",
-        "about_aria-label": "開啟 關於 PairDrop",
+        "about_aria-label": "開啟 關於 {{app_title}}",
         "theme-auto_title": "主題跟隨系統設定",
         "theme-light_title": "固定使用明亮主題",
         "theme-dark_title": "固定使用深色主題",
@@ -17,7 +17,7 @@
     },
     "instructions": {
         "no-peers_data-drop-bg": "放開以選擇接收者",
-        "no-peers-title": "喺其他裝置開啟 PairDrop 嚟傳送檔案",
+        "no-peers-title": "喺其他裝置開啟 {{app_title}} 嚟傳送檔案",
         "no-peers-subtitle": "配對新裝置 或 加入公共房間 以便喺其他網絡顯示",
         "x-instructions_desktop": "按一下傳送檔案 或 右鍵傳送訊息",
         "x-instructions_mobile": "點擊傳送檔案 或 長按傳送訊息",
@@ -27,7 +27,7 @@
         "x-instructions_data-drop-bg": "放開以選擇接收者",
         "x-instructions-share-mode_desktop": "單擊傳送 {{descriptor}}",
         "x-instructions-share-mode_mobile": "點擊傳送 {{descriptor}}",
-        "activate-share-mode-base": "喺其他裝置開啟 PairDrop 嚟傳送",
+        "activate-share-mode-base": "喺其他裝置開啟 {{app_title}} 嚟傳送",
         "activate-share-mode-and-other-file": "及另外 1 個檔案",
         "activate-share-mode-and-other-files-plural": "及另外 {{count}} 個檔案",
         "activate-share-mode-shared-text": "分享文字",
@@ -119,7 +119,8 @@
         "bluesky_title": "喺 BlueSky 關注",
         "custom_title": "關注我哋",
         "privacypolicy_title": "開啟私隱政策",
-        "faq_title": "常見問題"
+        "faq_title": "常見問題",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-permanently": "顯示名稱已永久變更",

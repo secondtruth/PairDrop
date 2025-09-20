@@ -119,7 +119,8 @@
         "bluesky_title": "עקוב אחרינו בBlueSky",
         "privacypolicy_title": "פתח את מדיניות הפרטיות שלנו",
         "faq_title": "שאלות נפוצות",
-        "close-about_aria-label": "סגירת אודות PairDrop"
+        "close-about_aria-label": "סגירת אודות PairDrop",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-permanently": "שם התצוגה משתנה לתמיד",

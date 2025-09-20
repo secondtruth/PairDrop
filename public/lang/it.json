@@ -171,7 +171,8 @@
         "mastodon_title": "Scrivi su Mastodon di PairDrop",
         "bluesky_title": "Seguici su BlueSky",
         "custom_title": "Seguici",
-        "privacypolicy_title": "Apri la nostra policy sulla privacy"
+        "privacypolicy_title": "Apri la nostra policy sulla privacy",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-transfer-requested": "Trasferimento File Richiesto",

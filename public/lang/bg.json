@@ -119,7 +119,8 @@
         "claim": "Най-лесният начин за прехвърляне на файлове между устройства",
         "github_title": "PairDrop в GitHub",
         "buy-me-a-coffee_title": "Купете ми кафе!",
-        "privacypolicy_title": "Отворете нашата политика за поверителност"
+        "privacypolicy_title": "Отворете нашата политика за поверителност",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-permanently": "Името се променя постоянно",

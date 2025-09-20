@@ -162,7 +162,8 @@
         "custom_title": "Sleduj nás",
         "privacypolicy_title": "Naše zásady o ochrane súkromia",
         "faq_title": "Často kladené otázky",
-        "close-about_aria-label": "Zatvoriť \"O službe PairDrop\""
+        "close-about_aria-label": "Zatvoriť \"O službe PairDrop\"",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-received": "Súbor prijatý",

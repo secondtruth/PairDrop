@@ -1,8 +1,8 @@
 {
     "header": {
-        "about_title": "À propos de PairDrop",
+        "about_title": "À propos de {{app_title}}",
         "language-selector_title": "Choix de la langue",
-        "about_aria-label": "Ouvrir à propos de PairDrop",
+        "about_aria-label": "Ouvrir à propos de {{app_title}}",
         "theme-auto_title": "Adapter le thème au système",
         "theme-light_title": "Toujours utiliser le thème clair",
         "theme-dark_title": "Toujours utiliser le thème sombre",
@@ -17,7 +17,7 @@
     },
     "instructions": {
         "no-peers_data-drop-bg": "Déposer pour choisir le destinataire",
-        "no-peers-title": "Ouvrez PairDrop sur d'autres appareils pour envoyer des fichiers",
+        "no-peers-title": "Ouvrez {{app_title}} sur d'autres appareils pour envoyer des fichiers",
         "no-peers-subtitle": "Associez des appareils ou entrez dans une salle publique pour être visible sur d'autres réseaux",
         "x-instructions_desktop": "Cliquez pour envoyer des fichiers ou faites un clic droit pour envoyer un message",
         "x-instructions_mobile": "Appuyez pour envoyer des fichiers ou appuyez longuement pour envoyer un message",
@@ -25,7 +25,7 @@
         "x-instructions_data-drop-bg": "Lâcher pour choisir le destinataire",
         "x-instructions-share-mode_desktop": "Cliquez pour envoyer {{descriptor}}",
         "x-instructions-share-mode_mobile": "Appuyez pour envoyer {{descriptor}}",
-        "activate-share-mode-base": "Ouvrez PairDrop sur d'autres appareils pour envoyer",
+        "activate-share-mode-base": "Ouvrez {{app_title}} sur d'autres appareils pour envoyer",
         "activate-share-mode-and-other-files-plural": "et {{count}} autres fichiers",
         "activate-share-mode-shared-text": "texte partagé",
         "activate-share-mode-shared-file": "fichier partagé",
@@ -111,7 +111,7 @@
         "close-toast_title": "Fermer la notification"
     },
     "about": {
-        "close-about_aria-label": "Fermer à propos de PairDrop",
+        "close-about_aria-label": "Fermer à propos de {{app_title}}",
         "claim": "Le moyen le plus simple de transférer des fichiers entre appareils",
         "github_title": "PairDrop sur GitHub",
         "buy-me-a-coffee_title": "Achetez-moi un café !",
@@ -120,7 +120,8 @@
         "bluesky_title": "Suis-nous sur BlueSky",
         "custom_title": "Suis-nous",
         "privacypolicy_title": "Ouvert sur notre politique de confidentialité",
-        "mastodon_title": "Écrire à propos de PairDrop sur Mastodon"
+        "mastodon_title": "Écrire à propos de PairDrop sur Mastodon",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-permanently": "Le nom d'affichage est modifié de manière permanente",

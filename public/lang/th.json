@@ -78,7 +78,8 @@
         "mastodon_title": "เขียนเกี่ยวกับ PairDrop บน Mastodon",
         "custom_title": "ติดตามเรา",
         "privacypolicy_title": "เปิดนโยบายความเป็นส่วนตัวของเรา",
-        "faq_title": "คำถามที่พบบ่อย (FAQ)"
+        "faq_title": "คำถามที่พบบ่อย (FAQ)",
+        "app-title": "{{app_title}}"
     },
     "instructions": {
         "no-peers-subtitle": "จับคู่อุปกรณ์ หรือ เข้าห้องสาธารณะ เพื่อ ค้นหาอุปกรณ์ ภายนอก เครือข่าย",

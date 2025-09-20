@@ -119,7 +119,8 @@
         "mastodon_title": "Skriv om PairDrop på Mastadon",
         "bluesky_title": "Følg oss på BlueSky",
         "custom_title": "Følg oss",
-        "privacypolicy_title": "Åpne vår personvernerklæring"
+        "privacypolicy_title": "Åpne vår personvernerklæring",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "copied-to-clipboard": "Kopiert til utklippstavlen",

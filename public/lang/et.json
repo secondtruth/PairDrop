@@ -162,7 +162,8 @@
         "mastodon_title": "Kirjuta PairDropist Mastodonis",
         "custom_title": "Jälgi meid",
         "close-about_aria-label": "Sulge PairDropi teave",
-        "github_title": "PairDrop GitHubis"
+        "github_title": "PairDrop GitHubis",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-transfer-requested": "Failiedastust on taotletud",

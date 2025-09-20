@@ -119,7 +119,8 @@
         "faq_title": "Часта задаюць пытанні",
         "close-about_aria-label": "Закрыць Аб PairDrop",
         "claim": "Самы просты спосаб перадачы файлаў паміж прыладамі",
-        "privacypolicy_title": "Адкрыйце нашу палітыку прыватнасці"
+        "privacypolicy_title": "Адкрыйце нашу палітыку прыватнасці",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "link-received": "Спасылка атрымана {{name}} - Націсніце, каб адкрыць",

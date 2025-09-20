@@ -162,7 +162,8 @@
         "bluesky_title": "BlueSky에서 팔로우하기",
         "custom_title": "팔로우하기",
         "privacypolicy_title": "개인정보처리방침 열기",
-        "faq_title": "자주 묻는 질문"
+        "faq_title": "자주 묻는 질문",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-received": "파일 받음",

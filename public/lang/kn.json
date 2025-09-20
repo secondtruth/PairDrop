@@ -178,7 +178,8 @@
         "bluesky_title": "BlueSky ನಲ್ಲಿ ನಮ್ಮನ್ನು ಅನುಸರಿಸಿ",
         "privacypolicy_title": "ನಮ್ಮ ಗೌಪ್ಯತೆ ನೀತಿ ತೆರೆಯಿರಿ",
         "mastodon_title": "Mastodon ನಲ್ಲಿ PairDrop ಕುರಿತು ಬರೆಯಿರಿ",
-        "custom_title": "ನಮ್ಮನ್ನು ಅನುಸರಿಸಿ"
+        "custom_title": "ನಮ್ಮನ್ನು ಅನುಸರಿಸಿ",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-transfer-requested": "ಫೈಲ್ ವರ್ಗಾವಣೆಗೆ ವಿನಂತಿಸಲಾಗಿದೆ",

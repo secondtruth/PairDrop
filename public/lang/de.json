@@ -1,8 +1,8 @@
 {
     "header": {
-        "about_title": "Über PairDrop",
+        "about_title": "Über {{app_title}}",
         "notification_title": "Benachrichtigungen aktivieren",
-        "about_aria-label": "Über PairDrop öffnen",
+        "about_aria-label": "Über {{app_title}} öffnen",
         "install_title": "PairDrop installieren",
         "pair-device_title": "Kopple deine Geräte dauerhaft",
         "edit-paired-devices_title": "Gekoppelte Geräte bearbeiten",
@@ -79,14 +79,15 @@
     "about": {
         "tweet_title": "Über PairDrop twittern",
         "faq_title": "Häufig gestellte Fragen",
-        "close-about_aria-label": "Schließe Über PairDrop",
+        "close-about_aria-label": "Schließe Über {{app_title}}",
         "github_title": "PairDrop auf GitHub",
         "buy-me-a-coffee_title": "Kauf mir einen Kaffee!",
         "claim": "Der einfachste Weg, Dateien zwischen Geräten zu übertragen",
         "bluesky_title": "Folge uns auf BlueSky",
         "privacypolicy_title": "Öffne unsere Datenschutzerklärung",
         "mastodon_title": "Schreibe über PairDrop auf Mastodon",
-        "custom_title": "Folge uns"
+        "custom_title": "Folge uns",
+        "app-title": "{{app_title}}"
     },
     "footer": {
         "known-as": "Du wirst angezeigt als:",
@@ -150,7 +151,7 @@
     },
     "instructions": {
         "x-instructions_desktop": "Klicke, um Dateien zu senden oder benutze einen Rechtsklick, um eine Nachricht zu senden",
-        "no-peers-title": "Öffne PairDrop auf anderen Geräten, um Dateien zu senden",
+        "no-peers-title": "Öffne {{app_title}} auf anderen Geräten, um Dateien zu senden",
         "no-peers_data-drop-bg": "Hier ablegen, um Empfänger auszuwählen",
         "no-peers-subtitle": "Kopple Geräte oder betritt einen öffentlichen Raum, um in anderen Netzwerken sichtbar zu sein",
         "x-instructions-share-mode_desktop": "Klicke zum Senden {{descriptor}}",
@@ -158,7 +159,7 @@
         "x-instructions_data-drop-peer": "Hier ablegen, um an Peer zu senden",
         "x-instructions_data-drop-bg": "Loslassen um Empfänger auszuwählen",
         "x-instructions_mobile": "Tippe, um Dateien zu senden oder tippe lange, um Nachrichten zu senden",
-        "activate-share-mode-base": "Öffne PairDrop auf anderen Geräten zum Senden",
+        "activate-share-mode-base": "Öffne {{app_title}} auf anderen Geräten zum Senden",
         "activate-share-mode-and-other-files-plural": "und {{count}} anderen Dateien",
         "activate-share-mode-shared-text": "des geteilten Texts",
         "webrtc-requirement": "Um diese PairDrop Instanz zu verwenden muss WebRTC aktiviert sein!",

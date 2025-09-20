@@ -18,5 +18,8 @@
         "no-peers-title": "Avaa PairDrop muilla laitteilla lähettääksesi tiedostoja",
         "no-peers-subtitle": "Yhdistä laite tai liity julkiseen huoneeseen, jotta olet löydettävissä muissa verkoissa",
         "x-instructions_desktop": "Paina lähettääksesi tiedoston tai klikkaa oikealla painikkeella lähettääksesi viestin"
+    },
+    "about": {
+        "app-title": "{{app_title}}"
     }
 }

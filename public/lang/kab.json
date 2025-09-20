@@ -23,7 +23,8 @@
     },
     "about": {
         "github_title": "PairDrop deg GitHub",
-        "close-about_aria-label": "Mdel Ɣef PairDrop"
+        "close-about_aria-label": "Mdel Ɣef PairDrop",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "connecting": "Tuqqna…",

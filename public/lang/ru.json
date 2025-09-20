@@ -120,7 +120,8 @@
         "mastodon_title": "Расскажите о PairDrop на Mastodon",
         "custom_title": "Подпишитесь на нас",
         "bluesky_title": "Подписаться на BlueSky",
-        "privacypolicy_title": "Открыть нашу политику приватности"
+        "privacypolicy_title": "Открыть нашу политику приватности",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-permanently": "Отображаемое имя было изменено навсегда",

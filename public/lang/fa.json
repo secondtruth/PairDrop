@@ -119,7 +119,8 @@
         "bluesky_title": "ما را در BlueSky دنبال کنید",
         "custom_title": "ما را دنبال کنید",
         "privacypolicy_title": "سیاست حفظ حریم خصوصی ما را باز کنید",
-        "faq_title": "سوالات متداول"
+        "faq_title": "سوالات متداول",
+        "app-title": "{{app_title}}"
     },
     "notifications": {
         "display-name-changed-permanently": "نام نمایشی برای همیشه تغییر کرد",

@@ -162,7 +162,8 @@
         "claim": "Az eszközök közötti fájlátvitel legegyszerűbb módja",
         "tweet_title": "Tweetelj a PairDrop-ról",
         "custom_title": "Kövess minket",
-        "privacypolicy_title": "Nyisd meg az adatvédelmi szabályzatunkat"
+        "privacypolicy_title": "Nyisd meg az adatvédelmi szabályzatunkat",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-received": "Fájl érkezett",

@@ -171,7 +171,8 @@
         "custom_title": "Bizi takip edin",
         "privacypolicy_title": "Gizlilik politikamızı aç",
         "mastodon_title": "Mastodon'da PairDrop hakkında yaz",
-        "bluesky_title": "BlueSky'da bizi takip edin"
+        "bluesky_title": "BlueSky'da bizi takip edin",
+        "app-title": "{{app_title}}"
     },
     "document-titles": {
         "file-transfer-requested": "Dosya Transferi Talep Edildi",
