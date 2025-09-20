@@ -2,8 +2,6 @@ const cacheVersion = 'v1.11.2';
 const cacheTitle = `pairdrop-cache-${cacheVersion}`;
 const relativePathsToCache = [
     './',
-    'index.html',
-    'manifest.json',
     'styles/styles-main.css',
     'styles/styles-deferred.css',
     'scripts/browser-tabs-connector.js',
@@ -65,7 +63,8 @@ const relativePathsToCache = [
     'lang/zh-TW.json'
 ];
 const relativePathsNotToCache = [
-    'config'
+    'config',
+    'manifest.json'
 ]
 
 self.addEventListener('install', function(event) {
