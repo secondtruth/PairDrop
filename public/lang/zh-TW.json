@@ -9,7 +9,7 @@
         "about_aria-label": "開啟關於 {{app_title}}",
         "theme-dark_title": "總是使用深色主題",
         "notification_title": "啟用通知",
-        "install_title": "安裝 PairDrop",
+        "install_title": "安裝 {{app_title}}",
         "pair-device_title": "永久配對你的裝置",
         "edit-paired-devices_title": "編輯已配對的裝置",
         "join-public-room_title": "暫時加入公共房間",
@@ -112,15 +112,14 @@
     "about": {
         "claim": "跨裝置傳輸檔案的最簡單方法",
         "github_title": "GitHub 上的 PairDrop",
-        "tweet_title": "發佈關於 PairDrop 的推文",
+        "tweet_title": "發佈關於 {{app_title}} 的推文",
         "mastodon_title": "在 Mastodon 上撰寫有關 PairDrop 的文章",
         "close-about_aria-label": "關閉關於 {{app_title}}",
         "buy-me-a-coffee_title": "給我買一杯咖啡吧！",
         "bluesky_title": "在 Bluesky 上關注我們",
         "custom_title": "關注我們",
         "privacypolicy_title": "開啟我們的隱私權政策",
-        "faq_title": "常見問題",
-        "app-title": "{{app_title}}"
+        "faq_title": "常見問題"
     },
     "notifications": {
         "display-name-changed-permanently": "裝置名稱已更改並儲存",
@@ -157,7 +156,7 @@
         "file-transfer-completed": "檔案傳輸已完成",
         "ios-memory-limit": "向 iOS 發送檔案每次只能最大 200 MB",
         "message-transfer-completed": "訊息傳輸已完成",
-        "unfinished-transfers-warning": "還有未完成的傳輸。你確定要關閉 PairDrop 嗎？",
+        "unfinished-transfers-warning": "還有未完成的傳輸。你確定要關閉 {{app_title}} 嗎？",
         "rate-limit-join-key": "已達到速率限制。請等待 10 秒鐘，然後再試一次。",
         "selected-peer-left": "選定的對象已離開",
         "pairing-tabs-error": "將兩個網頁瀏覽器分頁進行配對是不可能的",

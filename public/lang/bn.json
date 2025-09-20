@@ -32,7 +32,5 @@
         "activate-share-mode-shared-text": "পাঠানো টেক্সট",
         "activate-share-mode-shared-files-plural": "পাঠানো ফাইল গুলো"
     },
-    "about": {
-        "app-title": "{{app_title}}"
-    }
+    "about": {}
 }

@@ -23,18 +23,17 @@
     },
     "about": {
         "github_title": "PairDrop deg GitHub",
-        "close-about_aria-label": "Mdel Ɣef PairDrop",
-        "app-title": "{{app_title}}"
+        "close-about_aria-label": "Mdel Ɣef {{app_title}}"
     },
     "notifications": {
         "connecting": "Tuqqna…",
         "connected": "Yeqqen"
     },
     "header": {
-        "about_aria-label": "Ldi Ɣef PairDrop",
-        "about_title": "Ɣef PairDrop",
+        "about_aria-label": "Ldi Ɣef {{app_title}}",
+        "about_title": "Ɣef {{app_title}}",
         "language-selector_title": "Fren tutlayt",
-        "install_title": "Sbedd PairDrop",
+        "install_title": "Sbedd {{app_title}}",
         "edit-share-mode": "Ẓreg"
     }
 }

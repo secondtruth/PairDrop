@@ -8,7 +8,7 @@
         "theme-light_title": "固定使用明亮主題",
         "theme-dark_title": "固定使用深色主題",
         "notification_title": "啟用通知",
-        "install_title": "安裝 PairDrop",
+        "install_title": "安裝 {{app_title}}",
         "pair-device_title": "永久配對您的裝置",
         "edit-paired-devices_title": "管理已配對裝置",
         "join-public-room_title": "暫時加入公共房間",
@@ -110,17 +110,16 @@
         "copy": "複製"
     },
     "about": {
-        "close-about_aria-label": "關閉 關於 PairDrop",
+        "close-about_aria-label": "關閉 關於 {{app_title}}",
         "claim": "最簡單嘅跨裝置傳輸方案",
         "github_title": "PairDrop 開源於 GitHub",
         "buy-me-a-coffee_title": "請我飲杯咖啡！",
-        "tweet_title": "關於 PairDrop 嘅推文",
+        "tweet_title": "關於 {{app_title}} 嘅推文",
         "mastodon_title": "喺 Mastodon 推廣 PairDrop",
         "bluesky_title": "喺 BlueSky 關注",
         "custom_title": "關注我哋",
         "privacypolicy_title": "開啟私隱政策",
-        "faq_title": "常見問題",
-        "app-title": "{{app_title}}"
+        "faq_title": "常見問題"
     },
     "notifications": {
         "display-name-changed-permanently": "顯示名稱已永久變更",
@@ -152,7 +151,7 @@
         "copied-text": "已複製到剪貼簿",
         "copied-text-error": "寫入剪貼簿失敗，請手動複製！",
         "selected-peer-left": "已選擇嘅接收者離開",
-        "unfinished-transfers-warning": "仍有未完成傳輸，確定要關閉 PairDrop？",
+        "unfinished-transfers-warning": "仍有未完成傳輸，確定要關閉 {{app_title}}？",
         "offline": "你未連接到網絡",
         "online": "已重新連線到網絡",
         "connected": "已連線",

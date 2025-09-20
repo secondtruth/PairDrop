@@ -119,8 +119,7 @@
         "bluesky_title": "ப்ளூச்கியில் எங்களைப் பின்தொடரவும்",
         "custom_title": "எங்களைப் பின்தொடரவும்",
         "privacypolicy_title": "எங்கள் தனியுரிமைக் கொள்கையைத் திறக்கவும்",
-        "faq_title": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
-        "app-title": "{{app_title}}"
+        "faq_title": "அடிக்கடி கேட்கப்படும் கேள்விகள்"
     },
     "notifications": {
         "display-name-changed-permanently": "காட்சி பெயர் நிரந்தரமாக மாற்றப்பட்டுள்ளது",

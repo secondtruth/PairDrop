@@ -3,7 +3,7 @@
         "about_title": "Über {{app_title}}",
         "notification_title": "Benachrichtigungen aktivieren",
         "about_aria-label": "Über {{app_title}} öffnen",
-        "install_title": "PairDrop installieren",
+        "install_title": "{{app_title}} installieren",
         "pair-device_title": "Kopple deine Geräte dauerhaft",
         "edit-paired-devices_title": "Gekoppelte Geräte bearbeiten",
         "theme-auto_title": "Systemstil verwenden",
@@ -77,7 +77,7 @@
         "base64-title-text": "Teile Text"
     },
     "about": {
-        "tweet_title": "Über PairDrop twittern",
+        "tweet_title": "Über {{app_title}} twittern",
         "faq_title": "Häufig gestellte Fragen",
         "close-about_aria-label": "Schließe Über {{app_title}}",
         "github_title": "PairDrop auf GitHub",
@@ -86,8 +86,7 @@
         "bluesky_title": "Folge uns auf BlueSky",
         "privacypolicy_title": "Öffne unsere Datenschutzerklärung",
         "mastodon_title": "Schreibe über PairDrop auf Mastodon",
-        "custom_title": "Folge uns",
-        "app-title": "{{app_title}}"
+        "custom_title": "Folge uns"
     },
     "footer": {
         "known-as": "Du wirst angezeigt als:",
@@ -125,7 +124,7 @@
         "notifications-enabled": "Benachrichtigungen aktiviert",
         "offline": "Du bist offline",
         "online": "Du bist wieder Online",
-        "unfinished-transfers-warning": "Es wurden noch nicht alle Übertragungen fertiggestellt. Möchtest du PairDrop wirklich schließen?",
+        "unfinished-transfers-warning": "Es wurden noch nicht alle Übertragungen fertiggestellt. Möchtest du {{app_title}} wirklich schließen?",
         "display-name-changed-permanently": "Anzeigename wurde dauerhaft geändert",
         "download-successful": "{{descriptor}} heruntergeladen",
         "pairing-cleared": "Alle Geräte entkoppelt",
