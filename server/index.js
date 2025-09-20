@@ -37,6 +37,9 @@ conf.debugMode = process.env.DEBUG_MODE === "true";
 
 conf.port = process.env.PORT || 3000;
 
+conf.appTitle = process.env.APP_TITLE || "PairDrop";
+conf.pageTitle = process.env.PAGE_TITLE || "PairDrop | Transfer Files Cross-Platform. No Setup, No Signup.";
+
 conf.wsFallback = process.argv.includes('--include-ws-fallback') || process.env.WS_FALLBACK === "true";
 
 conf.rtcConfig = process.env.RTC_CONFIG && process.env.RTC_CONFIG !== "false"

@@ -3,6 +3,7 @@ import RateLimit from "express-rate-limit";
 import {fileURLToPath} from "url";
 import path, {dirname} from "path";
 import http from "http";
+import fs from "fs";
 
 export default class PairDropServer {
 
@@ -33,6 +34,102 @@ export default class PairDropServer {
         const __dirname = dirname(__filename);
 
         const publicPathAbs = path.join(__dirname, '../public');
+
+        app.get('/manifest.json', (req, res) => {
+            const manifest = {
+                "name": conf.appTitle,
+                "short_name": conf.appTitle,
+                "icons": [
+                    {
+                        "src": "images/android-chrome-192x192.png",
+                        "sizes": "192x192",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "images/android-chrome-512x512.png",
+                        "sizes": "512x512",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "images/android-chrome-192x192-maskable.png",
+                        "sizes": "192x192",
+                        "type": "image/png",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "images/android-chrome-512x512-maskable.png",
+                        "sizes": "512x512",
+                        "type": "image/png",
+                        "purpose": "maskable"
+                    }
+                ],
+                "background_color": "#efefef",
+                "start_url": "./",
+                "display": "standalone",
+                "theme_color": "#3367d6",
+                "screenshots": [
+                    {
+                        "src": "images/pairdrop_screenshot_mobile_1.png",
+                        "sizes": "1170x2532",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "images/pairdrop_screenshot_mobile_2.png",
+                        "sizes": "1170x2532",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "images/pairdrop_screenshot_mobile_3.png",
+                        "sizes": "1170x2532",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "images/pairdrop_screenshot_mobile_4.png",
+                        "sizes": "1170x2532",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "images/pairdrop_screenshot_mobile_5.png",
+                        "sizes": "1170x2532",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "images/pairdrop_screenshot_mobile_6.png",
+                        "sizes": "1170x2532",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "images/pairdrop_screenshot_mobile_7.png",
+                        "sizes": "1170x2532",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "images/pairdrop_screenshot_mobile_8.png",
+                        "sizes": "1170x2532",
+                        "type": "image/png"
+                    }
+                ],
+                "share_target": {
+                    "action": "/",
+                    "method": "POST",
+                    "enctype": "multipart/form-data",
+                    "params": {
+                        "title": "title",
+                        "text": "text",
+                        "url": "url",
+                        "files": [{
+                            "name": "allfiles",
+                            "accept": ["*/*"]
+                        }]
+                    }
+                },
+                "launch_handler": {
+                    "client_mode": "focus-existing"
+                }
+            };
+            res.json(manifest);
+        });
+
         app.use(express.static(publicPathAbs));
 
         if (conf.debugMode && conf.rateLimit) {
@@ -50,16 +147,36 @@ export default class PairDropServer {
         app.get('/config', (req, res) => {
             res.send({
                 signalingServer: conf.signalingServer,
-                buttons: conf.buttons
+                buttons: conf.buttons,
+                appTitle: conf.appTitle,
+                pageTitle: conf.pageTitle
             });
         });
 
-        app.use((req, res) => {
-            res.redirect(301, '/');
+        app.use((req, res, next) => {
+            // Serve dynamic index.html for all routes that are not handled by static files
+            const templatePath = path.join(publicPathAbs, 'index.template.html');
+            let html = fs.readFileSync(templatePath, 'utf8');
+            
+            // Replace placeholders with configuration values
+            html = html.replace(/{{APP_TITLE}}/g, conf.appTitle);
+            html = html.replace(/{{PAGE_TITLE}}/g, conf.pageTitle);
+            
+            res.setHeader('Content-Type', 'text/html');
+            res.send(html);
         });
 
         app.get('/', (req, res) => {
-            res.sendFile('index.html');
+            // Serve dynamic index.html with configured app title
+            const templatePath = path.join(publicPathAbs, 'index.template.html');
+            let html = fs.readFileSync(templatePath, 'utf8');
+            
+            // Replace placeholders with configuration values
+            html = html.replace(/{{APP_TITLE}}/g, conf.appTitle);
+            html = html.replace(/{{PAGE_TITLE}}/g, conf.pageTitle);
+            
+            res.setHeader('Content-Type', 'text/html');
+            res.send(html);
             console.log(`Serving client files from:\n${publicPathAbs}`)
         });
 

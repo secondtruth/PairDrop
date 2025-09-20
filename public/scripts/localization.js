@@ -11,6 +11,7 @@ class Localization {
 
         Localization.translations = {};
         Localization.translationsDefaultLocale = {};
+        Localization.globalData = {}; // Store global data like app title
 
         Localization.systemLocale = Localization.getSupportedOrDefaultLocales(navigator.languages);
 
@@ -19,6 +20,13 @@ class Localization {
         Localization.initialLocale = storedLanguageCode && Localization.localeIsSupported(storedLanguageCode)
             ? storedLanguageCode
             : Localization.systemLocale;
+
+        // Listen for config events to get app title
+        Events.on('config', e => {
+            Localization.globalData.app_title = e.detail.appTitle;
+            // Re-translate page with new app title data
+            Localization.translatePage();
+        });
     }
 
     static localeIsSupported(locale) {
@@ -163,11 +171,15 @@ class Localization {
 
     static addDataToTranslation(translation, data) {
         for (let j in data) {
+            // Don't require app_title placeholder for backward compatibility
+            if (j === 'app_title' && !translation.includes(`{{${j}}}`)) {
+                continue;
+            }
             if (!translation.includes(`{{${j}}}`)) {
                 throw new Error(`Translation misses data placeholder: ${j}`);
             }
             // Add data to translation
-            translation = translation.replace(`{{${j}}}`, data[j]);
+            translation = translation.replace(new RegExp(`{{${j}}}`, 'g'), data[j]);
         }
         return translation;
     }
@@ -179,14 +191,17 @@ class Localization {
 
         let translation;
 
+        // Merge global data with provided data, giving priority to provided data
+        const mergedData = Object.assign({}, Localization.globalData, data);
+
         try {
             translation = Localization.getTranslationFromTranslationsObj(translationObj, key, attr);
-            translation = Localization.addDataToTranslation(translation, data);
+            translation = Localization.addDataToTranslation(translation, mergedData);
         }
         catch (e) {
             // Log warnings and help calls
             console.warn(e);
-            Localization.logTranslationMissingOrBroken(key, attr, data, useDefault);
+            Localization.logTranslationMissingOrBroken(key, attr, mergedData, useDefault);
             Localization.logHelpCallKey(key, attr);
             Localization.logHelpCall();
 

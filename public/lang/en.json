@@ -1,8 +1,8 @@
 {
     "header": {
-        "about_title": "About PairDrop",
+        "about_title": "About {{app_title}}",
         "language-selector_title": "Set Language",
-        "about_aria-label": "Open About PairDrop",
+        "about_aria-label": "Open About {{app_title}}",
         "theme-auto_title": "Adapt theme to system automatically",
         "theme-light_title": "Always use light theme",
         "theme-dark_title": "Always use dark theme",
@@ -17,7 +17,7 @@
     },
     "instructions": {
         "no-peers_data-drop-bg": "Release to select recipient",
-        "no-peers-title": "Open PairDrop on other devices to send files",
+        "no-peers-title": "Open {{app_title}} on other devices to send files",
         "no-peers-subtitle": "Pair devices or enter a public room to be discoverable on other networks",
         "x-instructions_desktop": "Click to send files or right click to send a message",
         "x-instructions_mobile": "Tap to send files or long tap to send a message",
@@ -25,7 +25,7 @@
         "x-instructions_data-drop-bg": "Release to select recipient",
         "x-instructions-share-mode_desktop": "Click to send {{descriptor}}",
         "x-instructions-share-mode_mobile": "Tap to send {{descriptor}}",
-        "activate-share-mode-base": "Open PairDrop on other devices to send",
+        "activate-share-mode-base": "Open {{app_title}} on other devices to send",
         "activate-share-mode-and-other-file": "and 1 other file",
         "activate-share-mode-and-other-files-plural": "and {{count}} other files",
         "activate-share-mode-shared-text": "shared text",
@@ -110,7 +110,8 @@
         "close-toast_title": "Close notification"
     },
     "about": {
-        "close-about_aria-label": "Close About PairDrop",
+        "close-about_aria-label": "Close About {{app_title}}",
+        "app-title": "{{app_title}}",
         "claim": "The easiest way to transfer files across devices",
         "github_title": "PairDrop on GitHub",
         "buy-me-a-coffee_title": "Buy me a coffee!",
