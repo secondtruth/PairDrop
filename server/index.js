@@ -37,6 +37,12 @@ conf.debugMode = process.env.DEBUG_MODE === "true";
 
 conf.port = process.env.PORT || 3000;
 
+conf.appTitle = process.env.APP_TITLE || "PairDrop";
+conf.pageTitle = process.env.PAGE_TITLE || "PairDrop | Transfer Files Cross-Platform. No Setup, No Signup.";
+conf.description = process.env.DESCRIPTION || "Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.";
+conf.keywords = process.env.KEYWORDS || "File, Transfer, Share, Peer2Peer";
+conf.ogUrl = process.env.OG_URL || "https://pairdrop.net/";
+
 conf.wsFallback = process.argv.includes('--include-ws-fallback') || process.env.WS_FALLBACK === "true";
 
 conf.rtcConfig = process.env.RTC_CONFIG && process.env.RTC_CONFIG !== "false"

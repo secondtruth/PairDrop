@@ -460,6 +460,59 @@ PRIVACYPOLICY_BUTTON_TITLE="Open our privacy policy"
 
 <br>
 
+### App Title Configuration
+
+```bash
+APP_TITLE="MyDrop"
+PAGE_TITLE="MyDrop - Custom File Sharing"
+```
+
+> Default: `APP_TITLE="PairDrop"`, `PAGE_TITLE="PairDrop | Transfer Files Cross-Platform. No Setup, No Signup."`
+>
+> Customizes the app name and page title shown throughout the application.
+> 
+> * `APP_TITLE`: Sets the app name used in:
+>   - PWA manifest (name and short_name)
+>   - About dialog heading
+>   - Apple mobile web app title
+>   - Application name meta tag
+>   - OpenGraph title meta tag
+>   - Header button tooltips and links
+>   - Instruction text (e.g., "Open MyDrop on other devices...")
+> 
+> * `PAGE_TITLE`: Sets the HTML page title shown in the browser tab.
+> 
+> The app title is dynamically injected into translations using the `{{app_title}}` placeholder, 
+> ensuring consistent branding across all visible frontend locations.
+
+<br>
+
+### Additional Metadata Configuration
+
+```bash
+DESCRIPTION="Custom file sharing platform for teams"
+KEYWORDS="File, Share, Team, Collaboration" 
+OG_URL="https://mycompany.com/filedrop/"
+```
+
+> Default: 
+> - `DESCRIPTION="Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup."`
+> - `KEYWORDS="File, Transfer, Share, Peer2Peer"`
+> - `OG_URL="https://pairdrop.net/"`
+>
+> Customizes the metadata shown in search results and social media previews.
+> 
+> * `DESCRIPTION`: Sets the description used in:
+>   - HTML meta description tag
+>   - OpenGraph description (og:description)
+>   - Twitter card description (twitter:description)
+> 
+> * `KEYWORDS`: Sets the keywords meta tag for SEO
+> 
+> * `OG_URL`: Sets the canonical URL for OpenGraph (og:url) meta tag
+
+<br>
+
 ## Healthcheck
 
 > The Docker Image hosted on `ghcr.io` and the self-built Docker Image include a healthcheck.
