@@ -130,6 +130,11 @@ export default class PairDropServer {
             res.json(manifest);
         });
 
+        // Block access to template file
+        app.get('/index.html.template', (req, res) => {
+            res.status(404).send('Not Found');
+        });
+
         app.use(express.static(publicPathAbs));
 
         if (conf.debugMode && conf.rateLimit) {
@@ -155,12 +160,15 @@ export default class PairDropServer {
 
         app.use((req, res, next) => {
             // Serve dynamic index.html for all routes that are not handled by static files
-            const templatePath = path.join(publicPathAbs, 'index.template.html');
+            const templatePath = path.join(publicPathAbs, 'index.html.template');
             let html = fs.readFileSync(templatePath, 'utf8');
             
             // Replace placeholders with configuration values
             html = html.replace(/{{APP_TITLE}}/g, conf.appTitle);
             html = html.replace(/{{PAGE_TITLE}}/g, conf.pageTitle);
+            html = html.replace(/{{DESCRIPTION}}/g, conf.description);
+            html = html.replace(/{{KEYWORDS}}/g, conf.keywords);
+            html = html.replace(/{{OG_URL}}/g, conf.ogUrl);
             
             res.setHeader('Content-Type', 'text/html');
             res.send(html);
@@ -168,12 +176,15 @@ export default class PairDropServer {
 
         app.get('/', (req, res) => {
             // Serve dynamic index.html with configured app title
-            const templatePath = path.join(publicPathAbs, 'index.template.html');
+            const templatePath = path.join(publicPathAbs, 'index.html.template');
             let html = fs.readFileSync(templatePath, 'utf8');
             
             // Replace placeholders with configuration values
             html = html.replace(/{{APP_TITLE}}/g, conf.appTitle);
             html = html.replace(/{{PAGE_TITLE}}/g, conf.pageTitle);
+            html = html.replace(/{{DESCRIPTION}}/g, conf.description);
+            html = html.replace(/{{KEYWORDS}}/g, conf.keywords);
+            html = html.replace(/{{OG_URL}}/g, conf.ogUrl);
             
             res.setHeader('Content-Type', 'text/html');
             res.send(html);

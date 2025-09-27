@@ -14,17 +14,17 @@
     <meta name="apple-mobile-web-app-title" content="{{APP_TITLE}}">
     <meta name="application-name" content="{{APP_TITLE}}">
     <!-- Descriptions -->
-    <meta name="description" content="Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.">
-    <meta name="keywords" content="File, Transfer, Share, Peer2Peer">
+    <meta name="description" content="{{DESCRIPTION}}">
+    <meta name="keywords" content="{{KEYWORDS}}">
     <meta name="author" content="schlagmichdoch">
     <meta property="og:title" content="{{APP_TITLE}}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://pairdrop.net/">
+    <meta property="og:url" content="{{OG_URL}}">
     <meta property="og:author" content="https://github.com/schlagmichdoch">
     <meta name="twitter:author" content="@schlagmichdoch">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.">
-    <meta name="og:description" content="Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup.">
+    <meta name="twitter:description" content="{{DESCRIPTION}}">
+    <meta name="og:description" content="{{DESCRIPTION}}">
     <!-- Icons -->
     <link rel="icon" sizes="96x96" href="images/favicon-96x96.png">
     <link rel="shortcut icon" href="images/favicon-96x96.png">

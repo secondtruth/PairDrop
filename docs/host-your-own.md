@@ -487,6 +487,32 @@ PAGE_TITLE="MyDrop - Custom File Sharing"
 
 <br>
 
+### Additional Metadata Configuration
+
+```bash
+DESCRIPTION="Custom file sharing platform for teams"
+KEYWORDS="File, Share, Team, Collaboration" 
+OG_URL="https://mycompany.com/filedrop/"
+```
+
+> Default: 
+> - `DESCRIPTION="Instantly share images, videos, PDFs, and links with people nearby. Peer2Peer and Open Source. No Setup, No Signup."`
+> - `KEYWORDS="File, Transfer, Share, Peer2Peer"`
+> - `OG_URL="https://pairdrop.net/"`
+>
+> Customizes the metadata shown in search results and social media previews.
+> 
+> * `DESCRIPTION`: Sets the description used in:
+>   - HTML meta description tag
+>   - OpenGraph description (og:description)
+>   - Twitter card description (twitter:description)
+> 
+> * `KEYWORDS`: Sets the keywords meta tag for SEO
+> 
+> * `OG_URL`: Sets the canonical URL for OpenGraph (og:url) meta tag
+
+<br>
+
 ## Healthcheck
 
 > The Docker Image hosted on `ghcr.io` and the self-built Docker Image include a healthcheck.
